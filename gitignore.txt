@@ -1,0 +1,21 @@
+# [모델 및 대용량 파일]
+base_model/
+*.safetensors
+*.bin
+*.pth
+
+# [데이터 및 자산]
+assets/
+data/
+
+# [환경 및 캐시]
+__pycache__/
+.ipynb_checkpoints/
+venv/
+aimers/
+.venv/
+.env
+
+# [로그 및 결과물]
+logs/
+submit.zip
